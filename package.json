@@ -1,0 +1,24 @@
+{
+  "name": "cli-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "pkg . --compress Brotli"
+  },
+  "keywords": [],
+  "author": "Pankaj Bepari",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "bin": "app.js",
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  }
+}

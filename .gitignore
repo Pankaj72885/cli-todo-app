@@ -1,0 +1,12 @@
+# .gitignore for a Node.js project# Ignore build artifacts
+dist/
+node_modules/
+*.log
+.env
+.vscode/
+.DS_Store
+
+
+
+
+
